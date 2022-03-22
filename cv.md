@@ -1,6 +1,6 @@
 My name: **Alexandr Serik** 
 ---
-Contacts: 
+**Contacts:**
 * Telegram: CrazyShura
 * E-mail: Shurik93ss@gmail.com
 * GitHub: AlexSerik
