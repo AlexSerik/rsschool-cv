@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6{
  .container{
 
      width: 100%;
-     max-width: 1200px;
+     max-width: 1300px;
      padding-left: 1rem;
      padding-right: 1rem;
      margin: 0 auto;
@@ -135,14 +135,15 @@ h1, h2, h3, h4, h5, h6{
  }
 
   .intro__inner{
-      padding-bottom: 120px;
+      padding-bottom: 10px;
       display: flex;
       border-bottom: 1px solid rgba(106, 105, 107, .3);
        
   }
 
   .inro__content{
-      width: 50%;
+      width: 70%;
+      
 
   }
 
@@ -168,13 +169,14 @@ h1, h2, h3, h4, h5, h6{
 
   .intro__photo{
 
-      width: 50%;
+      width: 30%;
+      
 
   }
 
   .social{
       display: flex;
-      margin-bottom: 42px;
+      margin-bottom: 15px;
 
   }
 
@@ -194,4 +196,104 @@ h1, h2, h3, h4, h5, h6{
 
       max-width: 27px;
       max-height: 27px;
+  }
+  .intro__photo{
+      display: flex;
+      position: relative;
+      bottom: 0;
+      right: 0;
+      max-width: 350px;
+    max-height: 500px;
+  }
+
+  /*About Me=======
+  ==========*/
+.aboutMe{
+    margin: 100px 0;
+}
+
+  .aboutMe__inner{
+    display: flex;
+    max-width: 1500px;
+    /*justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    */
+    border-bottom: 1px solid rgba(106, 105, 107, .3);
+
+  }
+
+  .aboutMe__photo{
+      width: 50%;
+  }
+
+  .aboutMe__content{
+      width: 50%;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      height: 100%;
+
+  }
+
+  .aboutMe__title{
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .aboutMe__text{
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 1.6;
+      margin-bottom: 15px;
+
+  }
+
+  /*Skills============
+  ===================*/
+
+  .skills{
+      margin: 100px 0;
+      display: flex;
+
+      border-bottom: 1px solid rgba(106, 105, 107, .3);
+
+
+  }
+
+  .skills__title{
+      padding-left: 140px;
+      font-size: 45px;
+      font-weight: 700;
+      text-transform: uppercase;
+  }
+  .skills__scale{
+    
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      margin-bottom: 40px;
+
+      
+
+  }
+
+  .scale{
+      width: 100%;
+      display: inline-flex;
+      justify-content: flex-start;
+      align-items: center;
+      height: 100%;
+      padding-top: 40px;
+  }
+  .scale__name{
+      min-height: 64px;
+      min-width: 64px;
+      padding-right: 70px;
+  }
+  .scale img{
+      max-height: 24px;
+      align-items: center;
+      padding-left: 50px;
   }
