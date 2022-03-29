@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6{
  .nav__link{
 
      margin-left: 30px;
-     font-size: 14px;
+     font-size: 20px;
      color: #2c2b2a;
      text-transform: uppercase;
      text-decoration: none;
@@ -388,7 +388,7 @@ h1, h2, h3, h4, h5, h6{
 
   .languages{
 
-      margin: 100px 0;
+      margin: 100px 0 10px;
 
   }
 
@@ -415,3 +415,46 @@ h1, h2, h3, h4, h5, h6{
     font-weight: 500;
   }
   
+  /*Futer==========
+  ================*/
+
+  .futer{
+
+     width: 100%;
+     max-width: 1300px;
+     padding-left: 1rem;
+     padding-right: 1rem;
+     margin: 0 auto;
+  }
+
+  .content{
+
+    display: flex;  
+    width: 100%;
+    justify-content: space-between;  
+  }
+
+  .content__git{
+
+      display: flex;
+      text-decoration: none;
+      width: 100%;
+      align-content: center;
+  }
+
+  .content__git p{
+
+    font-size: 25px;
+      font-weight: 700;
+      
+  }
+
+  .ear{
+      font-size: 25px;
+      font-weight: 700;
+  }
+
+  .content__RS{
+      display: flex;
+      align-items: center;
+  }
