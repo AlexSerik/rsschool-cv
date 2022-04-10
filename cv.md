@@ -83,5 +83,5 @@ ___
 
 ___
 **Languages**
-+ ERussian - native speaker
++ Russian - native speaker
 + English - A1 (A2 in process…)
