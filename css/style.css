@@ -356,6 +356,7 @@ h1, h2, h3, h4, h5, h6{
     flex-direction: column;
     border-bottom: 1px solid rgba(106, 105, 107, .3);
     padding-bottom: 70px;
+    
   }
 
   .education__content{
@@ -377,6 +378,7 @@ h1, h2, h3, h4, h5, h6{
       font-size: 30px;
       font-weight: 600;
       width: 100%;
+      
   }
   .special{
       font-size: 30px;
@@ -425,6 +427,7 @@ h1, h2, h3, h4, h5, h6{
      padding-left: 1rem;
      padding-right: 1rem;
      margin: 0 auto;
+     
   }
 
   .content{
@@ -457,4 +460,6 @@ h1, h2, h3, h4, h5, h6{
   .content__RS{
       display: flex;
       align-items: center;
+
   }
+
